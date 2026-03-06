@@ -4,6 +4,7 @@ type: "Workshop"
 courseCode: ""
 academicYear: "2025/2026"
 semester: "Even 2025/2026"
+active: false
 location: "Tangerang, Indonesia"
 venue: "Saint John's Catholic School"
 description: "This tutorial introduces high school students to the basics of web development using PHP and MySQL."

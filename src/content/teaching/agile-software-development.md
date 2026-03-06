@@ -4,6 +4,7 @@ type: "Course"
 courseCode: "COMP6884001"
 academicYear: "2024/2025"
 semester: "Even 2024/2025"
+active: false
 location: "Jakarta, Indonesia"
 venue: "BINUS University, School of Computer Science"
 description: "This course provides a comprehensive exploration of Agile principles, methodologies, technical, cultural, and social aspects."

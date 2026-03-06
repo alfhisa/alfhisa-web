@@ -4,6 +4,7 @@ type: "Course"
 courseCode: "COMP6047001"
 academicYear: "2025/2026"
 semester: "Odd 2025/2026"
+active: false
 location: "Jakarta, Indonesia"
 venue: "BINUS University, School of Computer Science"
 description: "This course comprises the fundamental concepts of algorithms and programming using the C programming language."
