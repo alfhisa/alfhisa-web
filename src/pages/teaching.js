@@ -9,7 +9,9 @@ export function renderTeaching() {
   const resources = allTeaching.filter(t => t.type !== 'Course');
 
   function renderCourse(course) {
-    const isActive = course.semester && course.semester.includes('2024'); // Simple logic for demo
+    // Priority 1: Explicit 'active' field
+    // Priority 2: Fallback to semester check
+    const isActive = course.active !== undefined ? course.active : (course.semester && course.semester.includes('2025'));
     const badgeClass = isActive ? 'badge--accent' : '';
     const badgeText = isActive ? 'Active' : 'Past';
     const tagsHtml = (course.tags || []).map(t => '<span class="badge">' + t + '</span>').join('');

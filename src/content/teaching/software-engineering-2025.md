@@ -1,9 +1,10 @@
 ---
-title: "Software Engineering (2025)"
+title: "Software Engineering (2025/2026)"
 type: "Course"
 courseCode: "COMP6100001"
 academicYear: "2025/2026"
-semester: "Even"
+semester: "Even 2025/2026"
+active: true
 location: "Jakarta, Indonesia"
 venue: "BINUS University, School of Computer Science"
 description: "This course provides a comprehensive examination of the principles, methodologies, and tools necessary for structured software development."
