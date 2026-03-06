@@ -30,9 +30,21 @@ export const allProjects = parseContent(projectFiles).sort((a, b) => {
 });
 export const allResearch = parseContent(researchFiles).sort((a, b) => new Date(b.year) - new Date(a.year));
 export const allTeaching = parseContent(teachingFiles).sort((a, b) => {
-    if (a.type === 'Course' && b.type !== 'Course') return -1;
-    if (a.type !== 'Course' && b.type === 'Course') return 1;
-    return 0;
+    // 1. Academic Year (Descending: e.g. 2025/2026 before 2024/2025)
+    const yearA = a.academicYear || "";
+    const yearB = b.academicYear || "";
+    if (yearA !== yearB) return yearB.localeCompare(yearA);
+
+    // 2. Semester (Even before Odd)
+    const semA = (a.semester || "").toLowerCase();
+    const semB = (b.semester || "").toLowerCase();
+    const isEvenA = semA.includes('even');
+    const isEvenB = semB.includes('even');
+    if (isEvenA && !isEvenB) return -1;
+    if (!isEvenA && isEvenB) return 1;
+
+    // 3. Title (Alphabetical)
+    return (a.title || "").localeCompare(b.title || "");
 });
 
 // Helper functions to get specific items
