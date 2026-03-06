@@ -3,7 +3,7 @@
  */
 
 export function renderAbout() {
-    return `
+  return `
     <div class="about page-content">
       <!-- About Hero -->
       <section class="section">
@@ -22,107 +22,98 @@ export function renderAbout() {
                 I'm <strong>Muhammad Alfhi Saputra</strong> — a lecturer and researcher in Computer Science who can't stop building things.
               </p>
               <p>
-                My approach is simple: explore widely, learn deeply, build something real, and share what I discover. Whether it's a new programming paradigm, a research question, or a tool that solves a real problem — I believe the best way to understand something is to create with it.
+                My approach is simple: explore widely, learn deeply, build something real, and share what I discover. I believe the best way to understand something is to create with it. I am currently pursuing my Doctorate in Computer Science at BINUS University (expected 2027).
               </p>
-              <p>
-                I teach at the university level, where I try to bridge the gap between academic theory and industry practice. My courses are designed not just to transfer knowledge, but to ignite curiosity and equip students with the skills to build.
-              </p>
+              
+              <div style="margin-top: var(--space-8);">
+                <h3 style="margin-bottom: var(--space-4); font-size: var(--text-lg); color: var(--color-text-primary);">Education</h3>
+                <ul style="list-style: none; padding: 0;">
+                  <li style="margin-bottom: var(--space-3); display: flex; gap: var(--space-3);">
+                    <span style="color: var(--color-accent);">•</span>
+                    <span><strong>Dr. in Doctor of Computer Science</strong>, BINUS University, 2027 (expected)</span>
+                  </li>
+                  <li style="margin-bottom: var(--space-3); display: flex; gap: var(--space-3);">
+                    <span style="color: var(--color-accent);">•</span>
+                    <span><strong>M.Kom. in Faculty of Computer Science</strong>, University of Indonesia, 2024</span>
+                  </li>
+                  <li style="margin-bottom: var(--space-3); display: flex; gap: var(--space-3);">
+                    <span style="color: var(--color-accent);">•</span>
+                    <span><strong>S.Kom. in School of Computing</strong>, Telkom University, 2021</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Philosophy -->
-      <section class="section section--sm">
-        <div class="container">
-          <div class="section-header animate-on-scroll">
-            <div class="section-label">Philosophy</div>
-            <h2 class="section-title">How I Work</h2>
-          </div>
-
-          <div class="grid grid--3 stagger">
-            <div class="card animate-on-scroll">
-              <div class="card__icon">🔍</div>
-              <h3 class="card__title">Explore</h3>
-              <p class="card__description">
-                I stay curious. I dive into new technologies, read papers, attend talks, and experiment with ideas that interest me — even outside my comfort zone.
-              </p>
-            </div>
-
-            <div class="card animate-on-scroll">
-              <div class="card__icon">🛠️</div>
-              <h3 class="card__title">Build</h3>
-              <p class="card__description">
-                Theory without practice is incomplete. I build real systems — prototypes, tools, applications — to test ideas and create tangible impact.
-              </p>
-            </div>
-
-            <div class="card animate-on-scroll">
-              <div class="card__icon">📤</div>
-              <h3 class="card__title">Share</h3>
-              <p class="card__description">
-                Knowledge grows when shared. I teach, write, and open-source my work so others can learn from — and build upon — what I've done.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Skills / Interests -->
-      <section class="section section--sm">
-        <div class="container">
-          <div class="section-header animate-on-scroll">
-            <div class="section-label">Interests</div>
-            <h2 class="section-title">What Excites Me</h2>
-            <p class="section-subtitle">Areas I'm currently exploring and building in — these evolve as my curiosity leads me.</p>
-          </div>
-
-          <div class="tags about__tags animate-on-scroll" style="justify-content: center; max-width: 700px; margin: 0 auto;">
-            <span class="badge">Software Engineering</span>
-            <span class="badge">Web Technologies</span>
-            <span class="badge">Artificial Intelligence</span>
-            <span class="badge">Machine Learning</span>
-            <span class="badge">Educational Technology</span>
-            <span class="badge">Systems Design</span>
-            <span class="badge">Open Source</span>
-            <span class="badge">Developer Tools</span>
-            <span class="badge">Data Science</span>
-            <span class="badge">Cloud Computing</span>
-            <span class="badge">Human-Computer Interaction</span>
-            <span class="badge">Research Methods</span>
-          </div>
-        </div>
-      </section>
-
-      <!-- Timeline -->
+      <!-- Work Experience -->
       <section class="section section--sm">
         <div class="container container--narrow">
           <div class="section-header animate-on-scroll">
-            <div class="section-label">Journey</div>
-            <h2 class="section-title">Milestones</h2>
+            <div class="section-label">Experience</div>
+            <h2 class="section-title">Work History</h2>
           </div>
 
           <div class="timeline animate-on-scroll">
             <div class="timeline__item">
-              <div class="timeline__year">Present</div>
-              <div class="timeline__title">Lecturer & Researcher</div>
-              <div class="timeline__desc">Teaching Computer Science courses and conducting research on digital innovation and learning systems.</div>
+              <div class="timeline__year">2026 - Present</div>
+              <div class="timeline__title">Research Officer</div>
+              <div class="timeline__subtitle" style="color: var(--color-accent); font-weight: 500; margin-bottom: var(--space-2);">School of Computer Science, BINUS University</div>
+              <div class="timeline__desc">Coordinating research programs and community development activities.</div>
             </div>
             <div class="timeline__item">
-              <div class="timeline__year">2023</div>
-              <div class="timeline__title">Started Building in Public</div>
-              <div class="timeline__desc">Began sharing projects, writing technical articles, and contributing to open-source communities.</div>
+              <div class="timeline__year">2025 - Present</div>
+              <div class="timeline__title">Full-time Lecturer</div>
+              <div class="timeline__subtitle" style="color: var(--color-accent); font-weight: 500; margin-bottom: var(--space-2);">School of Computer Science, BINUS University</div>
+              <div class="timeline__desc">Teaching, conducting research, contributing to academic service, and engaging in community development.</div>
             </div>
             <div class="timeline__item">
-              <div class="timeline__year">2022</div>
-              <div class="timeline__title">Master's in Computer Science</div>
-              <div class="timeline__desc">Completed graduate studies with a focus on applied computing and educational technology.</div>
+              <div class="timeline__year">2024 - 2025</div>
+              <div class="timeline__title">Associate Lecturer Specialist S2</div>
+              <div class="timeline__subtitle" style="color: var(--color-accent); font-weight: 500; margin-bottom: var(--space-2);">School of Computer Science, BINUS University</div>
+              <div class="timeline__desc">Lecturing and conducting research.</div>
             </div>
             <div class="timeline__item">
-              <div class="timeline__year">2019</div>
-              <div class="timeline__title">First Teaching Role</div>
-              <div class="timeline__desc">Started teaching programming fundamentals, discovering a passion for education and mentorship.</div>
+              <div class="timeline__year">2022 - 2023</div>
+              <div class="timeline__title">Research Assistant</div>
+              <div class="timeline__subtitle" style="color: var(--color-accent); font-weight: 500; margin-bottom: var(--space-2);">University of Indonesia</div>
+              <div class="timeline__desc">Machine Learning and Computer Vision Laboratory. Research in sign language recognition using object detection.</div>
             </div>
+            <div class="timeline__item">
+              <div class="timeline__year">2019 - 2023</div>
+              <div class="timeline__title">Co-founder and Vice Director</div>
+              <div class="timeline__subtitle" style="color: var(--color-accent); font-weight: 500; margin-bottom: var(--space-2);">Big Edu Indonesia</div>
+              <div class="timeline__desc">
+                An edutech startup specializing in school consulting and research services. Served over 3000 mentoring clients and led website development.
+              </div>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__year">2021 - 2022</div>
+              <div class="timeline__title">Tutor</div>
+              <div class="timeline__subtitle" style="color: var(--color-accent); font-weight: 500; margin-bottom: var(--space-2);">Telkom University</div>
+              <div class="timeline__desc">Tutoring Mathematical Logic for PJJ Informatika.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Service & Leadership -->
+      <section class="section section--sm">
+        <div class="container container--narrow">
+          <div class="section-header animate-on-scroll">
+            <div class="section-label">Community</div>
+            <h2 class="section-title">Service & Leadership</h2>
+          </div>
+          
+          <div class="card animate-on-scroll">
+            <div class="card__icon" style="font-size: var(--text-2xl);">🤝</div>
+            <h3 class="card__title">Coordinator @ Kuala Inspirasi</h3>
+            <p class="card__description">
+              Leading a non-profit organization focused on social impact and education. 
+              Find us at <a href="https://kualainspirasi.com/" target="_blank" style="color: var(--color-accent);">kualainspirasi.com</a> 
+              or on Instagram <a href="https://www.instagram.com/kualainspirasi/" target="_blank" style="color: var(--color-accent);">@kualainspirasi</a>.
+            </p>
           </div>
         </div>
       </section>
