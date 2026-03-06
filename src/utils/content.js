@@ -6,6 +6,7 @@ const blogFiles = import.meta.glob('/src/content/blog/*.md', { query: '?raw', im
 const projectFiles = import.meta.glob('/src/content/projects/*.md', { query: '?raw', import: 'default', eager: true });
 const researchFiles = import.meta.glob('/src/content/research/*.md', { query: '?raw', import: 'default', eager: true });
 const teachingFiles = import.meta.glob('/src/content/teaching/*.md', { query: '?raw', import: 'default', eager: true });
+const aboutFile = import.meta.glob('/src/content/about.md', { query: '?raw', import: 'default', eager: true });
 
 function parseContent(files) {
     return Object.entries(files).map(([path, content]) => {
@@ -20,6 +21,9 @@ function parseContent(files) {
         };
     });
 }
+
+// Export parsed singleton for about page
+export const aboutPage = parseContent(aboutFile)[0];
 
 // Export parsed and sorted content
 export const allPosts = parseContent(blogFiles).sort((a, b) => new Date(b.date) - new Date(a.date));
