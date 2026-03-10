@@ -39,7 +39,7 @@ export function renderContact() {
           <!-- Contact Form -->
           <div class="card animate-on-scroll" style="margin-top: var(--space-8);">
             <h2 style="font-size: var(--text-2xl); font-weight: 600; margin-bottom: var(--space-6);">Send a Message</h2>
-            <form class="contact-form" id="contact-form" action="https://formspree.io/f/PLACEHOLDER" method="POST">
+            <form class="contact-form" id="contact-form" action="https://formspree.io/f/xdaweogg" method="POST">
               <div class="grid grid--2" style="margin-bottom: var(--space-4);">
                 <div class="form-group">
                   <label class="form-label" for="contact-name">Name</label>
