@@ -20,7 +20,7 @@ export function renderNavbar() {
           <div class="navbar__brand-icon">
             <img src="/avatar.png" alt="MA" style="width: 100%; height: 100%; object-fit: cover; border-radius: inherit;">
           </div>
-          <span>alfhisa</span>
+          <span>Alfhi</span>
         </a>
 
         <div class="navbar__links">
