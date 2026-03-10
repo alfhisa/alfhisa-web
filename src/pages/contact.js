@@ -17,19 +17,19 @@ export function renderContact() {
 
           <!-- Contact Cards -->
           <div class="grid grid--3 stagger" style="margin-bottom: var(--space-12);">
-            <a href="mailto:alfhi@example.com" class="card card--interactive animate-on-scroll" style="text-align: center;">
+            <a href="mailto:muhammad.saputra@binus.edu" class="card card--interactive animate-on-scroll" style="text-align: center;">
               <div class="card__icon" style="margin: 0 auto var(--space-3);">✉️</div>
               <h3 class="card__title" style="font-size: var(--text-base);">Email</h3>
-              <p class="card__description">alfhi@example.com</p>
+              <p class="card__description">muhammad.saputra@binus.edu</p>
             </a>
 
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="card card--interactive animate-on-scroll" style="text-align: center;">
+            <a href="https://www.linkedin.com/in/alfhisa" target="_blank" rel="noopener noreferrer" class="card card--interactive animate-on-scroll" style="text-align: center;">
               <div class="card__icon" style="margin: 0 auto var(--space-3);">💼</div>
               <h3 class="card__title" style="font-size: var(--text-base);">LinkedIn</h3>
               <p class="card__description">Connect with me</p>
             </a>
 
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="card card--interactive animate-on-scroll" style="text-align: center;">
+            <a href="https://github.com/alfhisa" target="_blank" rel="noopener noreferrer" class="card card--interactive animate-on-scroll" style="text-align: center;">
               <div class="card__icon" style="margin: 0 auto var(--space-3);">🐙</div>
               <h3 class="card__title" style="font-size: var(--text-base);">GitHub</h3>
               <p class="card__description">See my code</p>
@@ -39,26 +39,26 @@ export function renderContact() {
           <!-- Contact Form -->
           <div class="card animate-on-scroll" style="margin-top: var(--space-8);">
             <h2 style="font-size: var(--text-2xl); font-weight: 600; margin-bottom: var(--space-6);">Send a Message</h2>
-            <form class="contact-form" id="contact-form">
+            <form class="contact-form" id="contact-form" action="https://formspree.io/f/PLACEHOLDER" method="POST">
               <div class="grid grid--2" style="margin-bottom: var(--space-4);">
                 <div class="form-group">
                   <label class="form-label" for="contact-name">Name</label>
-                  <input type="text" class="form-input" id="contact-name" placeholder="Your name" required />
+                  <input type="text" name="name" class="form-input" id="contact-name" placeholder="Your name" required />
                 </div>
                 <div class="form-group">
                   <label class="form-label" for="contact-email">Email</label>
-                  <input type="email" class="form-input" id="contact-email" placeholder="you@example.com" required />
+                  <input type="email" name="_replyto" class="form-input" id="contact-email" placeholder="you@example.com" required />
                 </div>
               </div>
 
               <div class="form-group" style="margin-bottom: var(--space-4);">
                 <label class="form-label" for="contact-subject">Subject</label>
-                <input type="text" class="form-input" id="contact-subject" placeholder="What's this about?" required />
+                <input type="text" name="subject" class="form-input" id="contact-subject" placeholder="What's this about?" required />
               </div>
 
               <div class="form-group" style="margin-bottom: var(--space-6);">
                 <label class="form-label" for="contact-message">Message</label>
-                <textarea class="form-textarea" id="contact-message" placeholder="Tell me more..." required></textarea>
+                <textarea name="message" class="form-textarea" id="contact-message" placeholder="Tell me more..." required></textarea>
               </div>
 
               <button type="submit" class="btn btn--primary btn--lg" style="width: 100%;">
@@ -66,10 +66,6 @@ export function renderContact() {
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
               </button>
             </form>
-
-            <p style="text-align: center; margin-top: var(--space-4); font-size: var(--text-sm); color: var(--color-text-muted);">
-              I typically respond within 1–2 business days.
-            </p>
           </div>
 
           <!-- Availability -->
