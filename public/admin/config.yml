@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: alfhisa/alfhisa-web
   branch: main
+  base_url: https://alfhisa-web.vercel.app # Change this if you have a custom domain
+  auth_endpoint: api/auth
 local_backend: true
 
 media_folder: "public/assets/uploads"
