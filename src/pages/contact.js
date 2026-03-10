@@ -17,11 +17,14 @@ export function renderContact() {
 
           <!-- Contact Cards -->
           <div class="grid grid--3 stagger" style="margin-bottom: var(--space-12);">
-            <a href="mailto:muhammad.saputra@binus.edu" class="card card--interactive animate-on-scroll" style="text-align: center;">
+            <div class="card card--interactive animate-on-scroll" style="text-align: center;">
               <div class="card__icon" style="margin: 0 auto var(--space-3);">✉️</div>
               <h3 class="card__title" style="font-size: var(--text-base);">Email</h3>
-              <p class="card__description">muhammad.saputra@binus.edu</p>
-            </a>
+              <p class="card__description">
+                <a href="mailto:muhammad.saputra@binus.edu" style="color: inherit; text-decoration: none;">muhammad.saputra@binus.edu</a><br>
+                <a href="mailto:muhalfhisaputra@gmail.com" style="color: inherit; text-decoration: none;">muhalfhisaputra@gmail.com</a>
+              </p>
+            </div>
 
             <a href="https://www.linkedin.com/in/alfhisa" target="_blank" rel="noopener noreferrer" class="card card--interactive animate-on-scroll" style="text-align: center;">
               <div class="card__icon" style="margin: 0 auto var(--space-3);">💼</div>
