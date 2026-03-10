@@ -245,11 +245,14 @@
 .about__avatar {
     position: sticky;
     top: calc(var(--navbar-height) + var(--space-8));
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
 }
 
 .about__avatar-placeholder {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: var(--radius-xl);
     background: var(--gradient-hero);
     display: flex;
