@@ -54,7 +54,7 @@ export function renderAbout() {
 
           <div class="about__intro animate-on-scroll">
             <div class="about__avatar">
-              <div class="about__avatar-placeholder">MA</div>
+              <img src="/avatar.png" alt="${p.title}" style="width: 100%; height: 100%; object-fit: cover; border-radius: inherit;">
             </div>
             <div class="about__bio">
               <p class="about__bio-lead">

@@ -17,7 +17,9 @@ export function renderNavbar() {
     <nav class="navbar" id="main-navbar">
       <div class="navbar__inner">
         <a href="#/" class="navbar__brand">
-          <div class="navbar__brand-icon">MA</div>
+          <div class="navbar__brand-icon">
+            <img src="/avatar.png" alt="MA" style="width: 100%; height: 100%; object-fit: cover; border-radius: inherit;">
+          </div>
           <span>alfhisa</span>
         </a>
 
