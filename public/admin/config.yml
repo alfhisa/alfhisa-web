@@ -2,7 +2,7 @@ backend:
   name: github
   repo: alfhisa/alfhisa-web
   branch: main
-  base_url: https://alfhisa-web.vercel.app # Change this if you have a custom domain
+  base_url: https://alfhisa.vercel.app
   auth_endpoint: api/auth
 local_backend: true
 
