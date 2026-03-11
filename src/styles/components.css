@@ -497,6 +497,25 @@
     max-width: 300px;
 }
 
+/* Reading Container */
+.reading-container {
+    background: var(--color-read-bg);
+    max-width: 860px;
+    margin: var(--space-8) auto;
+    padding: var(--space-10) var(--space-12);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-xl), 0 0 0 1px var(--color-read-border);
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .reading-container {
+        padding: var(--space-8) var(--space-6);
+        margin: var(--space-6) 0;
+        border-radius: var(--radius-md);
+    }
+}
 .footer__brand-name {
     font-size: var(--text-lg);
     font-weight: 600;

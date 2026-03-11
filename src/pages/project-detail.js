@@ -53,9 +53,11 @@ export function renderProjectDetail(slug) {
             </div>
           </header>
 
-          <div class="project-detail__body markdown-body animate-on-scroll" style="margin-top: var(--space-12); padding-top: var(--space-12); border-top: 1px solid var(--color-border);">
-            <h2 style="margin-bottom: var(--space-6);">Case Study</h2>
-            ${project.htmlContent || ''}
+          <div class="reading-container">
+            <div class="project-detail__body markdown-body animate-on-scroll" style="margin-top: 0; padding-top: 0; border-top: none;">
+              <h2 style="margin-bottom: var(--space-6);">Case Study</h2>
+              ${project.htmlContent || ''}
+            </div>
           </div>
         </div>
       </article>

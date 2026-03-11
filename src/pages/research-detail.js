@@ -58,9 +58,11 @@ export function renderResearchDetail(slug) {
             <p style="line-height: 1.6; color: var(--color-text-secondary);">${research.excerpt}</p>
           </div>
 
-          <div class="research-detail__body markdown-body animate-on-scroll" style="margin-top: var(--space-8); padding-top: var(--space-8); border-top: 1px solid var(--color-border);">
-            <h2 style="margin-bottom: var(--space-6);">Additional Notes & Findings</h2>
-            ${research.htmlContent || ''}
+          <div class="reading-container">
+            <div class="research-detail__body markdown-body animate-on-scroll" style="margin-top: 0; padding-top: 0; border-top: none;">
+              <h2 style="margin-bottom: var(--space-6);">Additional Notes & Findings</h2>
+              ${research.htmlContent || ''}
+            </div>
           </div>
         </div>
       </article>
