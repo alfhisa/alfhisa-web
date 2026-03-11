@@ -500,9 +500,9 @@
 /* Reading Container */
 .reading-container {
     background: var(--color-read-bg);
-    max-width: 860px;
+    max-width: 960px;
     margin: var(--space-8) auto;
-    padding: var(--space-10) var(--space-12);
+    padding: 48px 56px;
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-xl), 0 0 0 1px var(--color-read-border);
     position: relative;
