@@ -12,7 +12,7 @@ export function renderFooter() {
           <div class="footer__brand">
             <div class="footer__brand-name">Muhammad Alfhi Saputra</div>
             <p class="footer__brand-tagline">
-              Lecturer, researcher, and builder — exploring Computer Science and sharing knowledge through teaching, research, and real-world projects.
+              Lecturer and researcher in Computer Science — exploring Artificial Intelligence and its applications through teaching, research, and academic service.
             </p>
             <div class="footer__socials" style="margin-top: var(--space-4);">
               <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="GitHub" title="GitHub">

@@ -50,7 +50,7 @@ export function renderTeaching() {
             <div class="section-label">Teaching</div>
             <h1 class="section-title">Sharing Knowledge</h1>
             <p class="section-subtitle">
-              I believe great teaching bridges theory and practice. Here are the courses I teach and resources I've created.
+              Courses I teach and selected learning resources related to computer science and software engineering.
             </p>
           </div>
 

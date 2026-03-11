@@ -13,7 +13,7 @@ export function renderResearch() {
             <div class="section-label">Research</div>
             <h1 class="section-title">Exploring What's Next</h1>
             <p class="section-subtitle">
-              My research sits in Computer Science broadly — I follow interesting problems rather than rigid subfields. Here's what I'm working on.
+              My work broadly lies within Computer Science, with a particular focus on Artificial Intelligence and its applications in solving real-world problems.
             </p>
           </div>
         </div>

@@ -18,11 +18,10 @@ export function renderHome() {
               <span class="hero__name">Muhammad Alfhi<br/>Saputra</span>
             </h1>
             <p class="hero__subtitle animate-on-scroll">
-              Lecturer, researcher, and builder working at the intersection of
-              <span class="hero__highlight">Computer Science</span> and real-world digital innovation.
+              Lecturer and researcher in <span class="hero__highlight">Computer Science</span>, with research interests in Artificial Intelligence and its applications in real-world domains.
             </p>
             <p class="hero__philosophy animate-on-scroll">
-              I explore, learn fast, and turn ideas into real things — then share what I've learned so others can build on it too.
+              I enjoy exploring new ideas, learning continuously, and sharing insights through research, teaching, and writing.
             </p>
             <div class="hero__actions animate-on-scroll">
               <a href="#/projects" class="btn btn--primary btn--lg">
@@ -48,9 +47,9 @@ export function renderHome() {
               </div>
               <pre class="hero__code-content"><code><span class="code-keyword">const</span> <span class="code-var">alfhi</span> = {
   <span class="code-key">role</span>: <span class="code-string">"Lecturer & Researcher"</span>,
-  <span class="code-key">passion</span>: <span class="code-string">"Building & Exploring"</span>,
+  <span class="code-key">passion</span>: <span class="code-string">"Research & Exploration"</span>,
   <span class="code-key">field</span>: <span class="code-string">"Computer Science"</span>,
-  <span class="code-key">motto</span>: <span class="code-string">"Learn → Build → Share"</span>,
+  <span class="code-key">motto</span>: <span class="code-string">"Explore → Learn → Share"</span>,
 };</code></pre>
             </div>
           </div>
@@ -62,7 +61,7 @@ export function renderHome() {
         <div class="container">
           <div class="section-header animate-on-scroll">
             <div class="section-label">What I Do</div>
-            <h2 class="section-title">Teaching. Research. Building.</h2>
+            <h2 class="section-title">Teaching. Research. Innovation.</h2>
             <p class="section-subtitle">Three pillars that drive everything I do — each reinforcing the others.</p>
           </div>
 
@@ -83,7 +82,7 @@ export function renderHome() {
               <div class="card__icon">⚡</div>
               <h3 class="card__title">Projects</h3>
               <p class="card__description">
-                Turning concepts into working software. Real systems, real users, real impact — learning by building.
+                Turning concepts into working software. Real systems, real users, real impact — bridging theory and practice.
               </p>
               <span class="card__link">
                 See projects
@@ -157,7 +156,7 @@ export function renderHome() {
                 </div>
                 <h3 class="card__title" style="margin-top: var(--space-3);">Why Every CS Student Should Build Something Before Graduating</h3>
                 <p class="card__description">
-                  Reflections on the gap between theory and practice, and why hands-on building is essential.
+                  Reflections on the gap between theory and practice, and why hands-on experimentation is essential.
                 </p>
                 <span class="card__link">
                   Read post

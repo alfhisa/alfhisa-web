@@ -95,7 +95,7 @@ export function renderAbout() {
           <div class="section-header animate-on-scroll">
             <div class="section-label">Interests</div>
             <h2 class="section-title">What Excites Me</h2>
-            <p class="section-subtitle">Areas I'm currently exploring and building in — these evolve as my curiosity leads me.</p>
+            <p class="section-subtitle">Research areas and topics that I am currently exploring.</p>
           </div>
 
           <div class="tags about__tags animate-on-scroll" style="justify-content: center; max-width: 700px; margin: 0 auto;">

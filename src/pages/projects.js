@@ -67,7 +67,7 @@ export function renderProjects() {
             <div class="section-label">Projects</div>
             <h1 class="section-title">Things I've Built</h1>
             <p class="section-subtitle">
-              Real systems solving real problems. Each project is an exploration — a chance to learn, experiment, and create something useful.
+              Selected projects that explore practical applications of computing and artificial intelligence.
             </p>
           </div>
 

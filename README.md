@@ -1,6 +1,6 @@
 # 🌐 alfhisa-web
 
-**Muhammad Alfhi Saputra** — Lecturer, Researcher & Builder.
+**Muhammad Alfhi Saputra** — Lecturer & Researcher.
 *Exploring Computer Science and sharing knowledge through teaching, research, and real-world projects.*
 
 ---

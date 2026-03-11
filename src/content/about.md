@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-lead: "I'm **Muhammad Alfhi Saputra** — a lecturer and researcher in Computer Science who can't stop building things."
+lead: "I'm **Muhammad Alfhi Saputra** — a lecturer and researcher in Computer Science with a strong interest in Artificial Intelligence and applied computing."
 education:
   - degree: "Dr. in Doctor of Computer Science"
     institution: "BINUS University"
@@ -14,13 +14,13 @@ education:
 philosophy:
   - icon: "🔍"
     title: "Explore"
-    description: "I stay curious. I dive into new technologies, read papers, attend talks, and experiment with ideas that interest me — even outside my comfort zone."
+    description: "I maintain a strong curiosity for new developments in technology and research, regularly exploring emerging ideas through academic literature, discussions, and experimentation."
   - icon: "🛠️"
     title: "Build"
-    description: "Theory without practice is incomplete. I build real systems — prototypes, tools, applications — to test ideas and create tangible impact."
+    description: "I believe that research becomes meaningful when it is translated into practical systems, where ideas can be tested and applied to real-world problems."
   - icon: "📤"
     title: "Share"
-    description: "Knowledge grows when shared. I teach, write, and open-source my work so others can learn from — and build upon — what I've done."
+    description: "I value the dissemination of knowledge through teaching, writing, and research, with the aim of contributing to the broader academic and technology community."
 interests:
   - "Software Engineering"
   - "Web Technologies"
@@ -69,4 +69,4 @@ community:
       url: "https://www.instagram.com/kualainspirasi/"
 ---
 
-My approach is simple: explore widely, learn deeply, build something real, and share what I discover. I believe the best way to understand something is to create with it. I am currently pursuing my Doctorate in Computer Science at BINUS University (expected 2027).
+I am a lecturer and researcher at the School of Computer Science, BINUS University. My research interests lie in Artificial Intelligence, particularly in developing AI-based systems for practical applications such as monitoring the condition of oil palm plantations. I am currently pursuing my Doctorate in Computer Science at BINUS University (expected 2027).

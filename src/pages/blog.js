@@ -50,7 +50,7 @@ export function renderBlog() {
             <div class="section-label">Blog</div>
             <h1 class="section-title">Exploration Notes</h1>
             <p class="section-subtitle">
-              Field notes from learning, teaching, and building — tutorials, insights, and knowledge distilled into something useful.
+              Articles and notes covering topics in computer science, technology, and related areas of interest.
             </p>
           </div>
 
