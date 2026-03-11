@@ -10,7 +10,7 @@ venue: "BINUS University"
 description: "This article introduces software architecture patterns."
 ---
 
-# Software Architecture Patterns – Study Guide
+# Software Architecture Patterns
 
 Berikut rangkuman **software architecture patterns** yang umum digunakan dalam pengembangan perangkat lunak.
 
