@@ -46,11 +46,9 @@ export function renderTeachingDetail(slug) {
             </div>
           </header>
 
-          ${teaching.htmlContent ? `
-            <div class="teaching-detail__body markdown-body animate-on-scroll stagger" style="margin-top: var(--space-8); padding-top: var(--space-8); border-top: 1px solid var(--color-border);">
-              ${teaching.htmlContent}
-            </div>
-          ` : ''}
+          <div class="teaching-detail__body markdown-body animate-on-scroll" style="margin-top: var(--space-8); padding-top: var(--space-8); border-top: 1px solid var(--color-border);">
+            ${teaching.htmlContent || ''}
+          </div>
         </div>
       </article>
     </div>

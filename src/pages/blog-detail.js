@@ -38,8 +38,8 @@ export function renderBlogDetail(slug) {
             </div>
           </header>
 
-          <div class="blog-detail__body markdown-body animate-on-scroll stagger" style="margin-top: var(--space-8);">
-            ${post.htmlContent}
+          <div class="blog-detail__body markdown-body animate-on-scroll" style="margin-top: var(--space-8);">
+            ${post.htmlContent || ''}
           </div>
         </div>
       </article>

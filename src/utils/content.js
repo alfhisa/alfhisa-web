@@ -1,5 +1,7 @@
 import fm from 'front-matter';
-import { marked } from 'marked';
+import { Marked } from 'marked';
+
+const marked = new Marked();
 
 // Import all markdown files eagerly using Vite's glob import
 const blogFiles = import.meta.glob('/src/content/blog/*.md', { query: '?raw', import: 'default', eager: true });
@@ -17,7 +19,7 @@ function parseContent(files) {
         return {
             slug: filename,
             ...attributes,
-            htmlContent: marked.parse(body || ''),
+            htmlContent: marked.parse(body || '', { async: false }),
         };
     });
 }
