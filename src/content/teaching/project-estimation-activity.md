@@ -226,3 +226,167 @@ Team Size = __________
 ```
 Estimated Project Duration = __________ months
 ```
+
+# Example
+
+# 1. Project Overview
+
+**System Name:** Doctor Appointment Booking System
+
+## Description
+
+Sistem ini memungkinkan pasien untuk mencari dokter, melihat jadwal praktik, dan melakukan booking appointment secara online.  
+Admin rumah sakit dapat mengelola jadwal dokter serta memonitor appointment yang dibuat oleh pasien.
+
+---
+
+# 2. Identify Use Cases
+
+Kita identifikasi use case utama.
+
+| No | Use Case | Actor | Complexity | Weight |
+|----|----------|-------|------------|--------|
+| 1 | Register Patient | Patient | Simple | 5 |
+| 2 | Login | Patient | Simple | 5 |
+| 3 | View Doctor Schedule | Patient | Average | 10 |
+| 4 | Book Appointment | Patient | Complex | 15 |
+| 5 | Cancel Appointment | Patient | Average | 10 |
+| 6 | Manage Doctor Schedule | Admin | Complex | 15 |
+
+Sekarang jumlahkan.
+
+```
+UUCW = 5 + 5 + 10 + 15 + 10 + 15
+UUCW = 60
+```
+
+---
+
+# 3. Actor Identification
+
+Actor dalam sistem ini:
+
+| No | Actor | Type | Weight |
+|----|------|------|--------|
+| 1 | Patient | Complex (GUI) | 3 |
+| 2 | Admin | Complex (GUI) | 3 |
+| 3 | Notification API (Email/SMS) | Simple | 1 |
+
+```
+UAW = 3 + 3 + 1
+UAW = 7
+```
+
+---
+
+# 4. Calculate UUCP
+
+## Formula
+
+```
+UUCP = UUCW + UAW
+```
+
+## Calculation
+
+```
+UUCP = 60 + 7
+UUCP = 67
+```
+
+---
+
+# 5. Technical Complexity Factors
+
+Kita beri skor realistis.
+
+| Factor | Description | Score |
+|------|-------------|------|
+| Distributed System | System runs across servers | 1 |
+| Performance Requirement | High performance needed | 2 |
+| Security Requirement | Patient data security | 4 |
+| Concurrency | Many simultaneous users | 3 |
+| External Interfaces | Email/SMS API integration | 2 |
+
+```
+TF = 1 + 2 + 4 + 3 + 2
+TF = 12
+```
+
+Hitung **TCF**
+
+```
+TCF = 0.6 + (0.01 × TF)
+TCF = 0.6 + (0.01 × 12)
+TCF = 0.6 + 0.12
+TCF = 0.72
+```
+
+---
+
+# 6. Adjusted Use Case Points
+
+```
+UCP = UUCP × TCF
+UCP = 67 × 0.72
+UCP ≈ 48
+```
+
+Jadi ukuran sistem ≈ **48 Use Case Points**
+
+---
+
+# 7. Effort Estimation
+
+Asumsi:
+
+```
+1 UCP = 20 hours
+```
+
+Perhitungan:
+
+```
+Effort = UCP × 20
+Effort = 48 × 20
+Effort = 960 hours
+```
+
+Jadi estimasi effort ≈ **960 jam kerja**
+
+---
+
+# 8. Schedule Estimation
+
+Asumsi:
+
+```
+1 developer = 120 hours / month
+```
+
+Misalnya tim berisi **4 mahasiswa**
+
+```
+Duration = Effort / (Team × 120)
+Duration = 960 / (4 × 120)
+Duration = 960 / 480
+Duration = 2 months
+```
+
+---
+
+# Final Interpretation
+
+Hasil estimasi:
+
+| Metric | Result |
+|------|------|
+| UUCP | 67 |
+| UCP | 48 |
+| Effort | 960 hours |
+| Team Size | 4 developers |
+| Estimated Duration | ~2 months |
+
+## Interpretasi
+
+Jika dikerjakan oleh **4 developer**, sistem ini diperkirakan selesai sekitar **2 bulan development**.
