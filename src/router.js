@@ -107,6 +107,16 @@ function initScrollAnimations() {
 }
 
 export function initRouter() {
-  window.addEventListener('hashchange', render);
+  window.addEventListener('hashchange', () => {
+    render();
+    
+    // Track page views in Google Analytics based on hash routes
+    if (typeof gtag === "function") {
+      gtag('config', 'G-5SRE770LG8', {
+        page_path: window.location.hash || '/'
+      });
+    }
+  });
+
   render();
 }
