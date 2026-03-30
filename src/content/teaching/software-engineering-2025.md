@@ -69,7 +69,7 @@ Here is a complete example of an expected deliverables. This is from the Medley 
 - **Video Demo**: [View Video Demo on SharePoint](https://binusianorg-my.sharepoint.com/personal/muhammad_saputra040_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQCpgN7U6jkAQ7O7o00dP2ccAb1UPEQFkIRXklP4cjsuwd0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GLDBYI)
 - **Documentation**: [View Documentation on Notion](https://david-christian.notion.site/Dokumentasi-Medley-Kelompok-7-LP01-2150a750f0f580c089a0e5ca2e25e2ae?source=copy_link)
 - **Design (UI/UX)**: [Figma Design](https://www.figma.com/design/ETUsKw7u1iGWX49vlvL5lK/Medley?node-id=0-1&t=TgDwPcXq45dOoWcj-1)
-- **PKM-KC Proposal Template**: [PKM-KC Proposal Template*](https://binusianorg-my.sharepoint.com/personal/muhammad_saputra040_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQAv4irQuVvYSqLmDScRbVMqAaLvPcQkW9LxHLh0IIA0JvI&e=ljVTGo)
+- **PKM-KC Proposal Template**: [PKM-KC Proposal Template](https://binusianorg-my.sharepoint.com/personal/muhammad_saputra040_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQAv4irQuVvYSqLmDScRbVMqAaLvPcQkW9LxHLh0IIA0JvI&e=ljVTGo)
 ---
 
 ## 📚 Course Sessions
