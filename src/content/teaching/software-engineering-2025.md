@@ -58,30 +58,18 @@ The **AOL Project** is the most significant component of this course.
 - The demo (video demo-ing the software)
 - The proposal (based on PKM-KC format -> requirement from school)
 
-Further details, milestones, and evaluation criteria will be explained later in the semester.
+### Example Deliverables
 
----
+Here is a complete example of an expected deliverables. This is from the Medley project:
 
-## ⭐ 5 Golden Rules – Software Engineering Class
-
-### 1. Kehadiran, Tepat Waktu, dan Partisipasi Aktif
-Kehadiran dan partisipasi aktif sangat penting. Diskusi, tanya jawab, dan praktik merupakan bagian utama dari proses belajar software engineering.  
-Keterlambatan masih dapat ditoleransi selama tidak mengganggu jalannya kelas, namun hal ini **tidak untuk dieksploitasi** dan harus digunakan secara **bertanggung jawab**.  
-Untuk izin sakit, silakan menghubungi saya **sebelum kelas dimulai**. Apabila izin disampaikan setelah kelas berlangsung, silakan mengurusnya melalui **LSC (Lecturer Service Center)**.
-
-### 2. Jujur, Etis, dan Bertanggung Jawab
-Setiap tugas wajib dikerjakan secara jujur. Plagiarisme dan segala bentuk kecurangan tidak ditoleransi.  
-Penggunaan referensi, tools, maupun AI diperbolehkan secara bertanggung jawab, dan mahasiswa harus memahami serta mampu menjelaskan hasil pekerjaannya.
-
-### 3. Hargai Deadline
-Setiap tugas memiliki batas waktu pengumpulan. Keterlambatan masih dapat ditoleransi dalam kondisi tertentu, namun dapat dikenakan pengurangan nilai kecuali terdapat alasan yang jelas dan disampaikan sebelum tenggat waktu.
-
-### 4. Kerja Sama yang Profesional
-Sebagian aktivitas dilakukan secara berkelompok. Setiap anggota tim wajib berkontribusi secara adil, menjaga komunikasi yang baik, dan bersikap profesional selama proses kerja tim.
-
-### 5. Jaga Kenyamanan dan Fokus Belajar di Kelas
-Mohon untuk tidak mengganggu teman-teman yang sedang belajar di kelas.
-
+- **Live Product**: [Medley App](https://medley-zi9p.vercel.app/)
+- **Source Code**: [GitHub Repository](https://github.com/Kimchiigu/Medley)
+- **Presentation Slide**: [View on SharePoint](https://binusianorg-my.sharepoint.com/personal/muhammad_saputra040_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQBh5PXr0HHZS7orzgOL2rOYAaeq7ZQ5SFIo4wsKsPjpBDc&e=wnTAiU)
+- **Laporan / Proposal PKM-KC**: [View PDF on SharePoint](https://binusianorg-my.sharepoint.com/my?id=%2Fpersonal%2Fmuhammad%5Fsaputra040%5Fbinus%5Fac%5Fid%2FDocuments%2FSoftware%20Engineering%20Even%202025%2D2026%2FAOL%20References%2FLaporan%20PKM%20Kelompok%207%20%2D%20Medley%2Epdf&parent=%2Fpersonal%2Fmuhammad%5Fsaputra040%5Fbinus%5Fac%5Fid%2FDocuments%2FSoftware%20Engineering%20Even%202025%2D2026%2FAOL%20References&ga=1)
+- **Video Demo**: [View Video Demo on SharePoint](https://binusianorg-my.sharepoint.com/personal/muhammad_saputra040_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQCpgN7U6jkAQ7O7o00dP2ccAb1UPEQFkIRXklP4cjsuwd0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GLDBYI)
+- **Documentation**: [View Documentation on Notion](https://david-christian.notion.site/Dokumentasi-Medley-Kelompok-7-LP01-2150a750f0f580c089a0e5ca2e25e2ae?source=copy_link)
+- **Design (UI/UX)**: [Figma Design](https://www.figma.com/design/ETUsKw7u1iGWX49vlvL5lK/Medley?node-id=0-1&t=TgDwPcXq45dOoWcj-1)
+- **PKM-KC Proposal Template**: [PKM-KC Proposal Template*](https://binusianorg-my.sharepoint.com/personal/muhammad_saputra040_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQAv4irQuVvYSqLmDScRbVMqAaLvPcQkW9LxHLh0IIA0JvI&e=ljVTGo)
 ---
 
 ## 📚 Course Sessions
