@@ -34,8 +34,9 @@ By the end of this workshop, you will be able to:
 ## 🚀 The Challenge: "Git Gud Quotes"
 We will be contributing to a shared repository of developer quotes called `gitgudquotes`. Your task is to add your favorite programming quote to the collection.
 
-### Target Repository:
-[https://github.com/alfhisa/gitgudquotes](https://github.com/alfhisa/gitgudquotes)
+### Project Resources:
+- **Github Repository:** [https://github.com/alfhisa/gitgudquotes](https://github.com/alfhisa/gitgudquotes)
+- **Live Version:** [https://gitgudquotes.vercel.app/](https://gitgudquotes.vercel.app/)
 
 ---
 
