@@ -222,3 +222,10 @@ git pull origin main
 - Multiple commits visible
 - Branch created and merged
 - Local repo synced with remote
+
+---
+
+## 🏆 Finished?
+If you have completed all the steps above and want a bigger challenge, proceed to the next part where you will learn how to contribute to an open-source project!
+
+**Next Step:** [Git & GitHub Part 2: Open Source Contribution](#/teaching/worksheet-2-git)
