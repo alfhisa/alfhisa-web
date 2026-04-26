@@ -1,12 +1,12 @@
 ---
-title: "Git & GitHub Fundamentals"
+title: "Git & GitHub Fundamentals Part 1"
 type: "Workshop"
 courseCode: ""
 academicYear: "2025/2026"
 semester: "Even 2025/2026"
 active: false
 location: "Jakarta, Indonesia"
-venue: "Workshop Session"
+venue: "BINUS University"
 description: "A comprehensive guide for beginners to understand Git and GitHub essentials, from local repository initialization to remote collaboration."
 ---
 
