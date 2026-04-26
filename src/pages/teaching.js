@@ -6,7 +6,8 @@ import { allTeaching } from '../utils/content.js';
 
 export function renderTeaching() {
   const courses = allTeaching.filter(t => t.type === 'Course');
-  const resources = allTeaching.filter(t => t.type !== 'Course');
+  const workshops = allTeaching.filter(t => t.type === 'Workshop');
+  const resources = allTeaching.filter(t => t.type !== 'Course' && t.type !== 'Workshop');
 
   function renderCourse(course) {
     // Priority 1: Explicit 'active' field
@@ -32,6 +33,8 @@ export function renderTeaching() {
     let icon = '📘';
     if (resource.title.toLowerCase().includes('python')) icon = '📗';
     if (resource.title.toLowerCase().includes('algorithm')) icon = '📙';
+    if (resource.title.toLowerCase().includes('git')) icon = '📚';
+    if (resource.title.toLowerCase().includes('php')) icon = '🐘';
 
     return '<a href="#/teaching/' + resource.slug + '" style="text-decoration: none; color: inherit; display: block;">' +
       '<div class="card card--interactive animate-on-scroll">' +
@@ -70,7 +73,7 @@ export function renderTeaching() {
           <!-- Courses -->
           <div class="section-header animate-on-scroll">
             <div class="section-label">Courses</div>
-            <h2 class="section-title">Current Courses</h2>
+            <h2 class="section-title">Academic Courses</h2>
           </div>
 
           <div class="grid grid--2 stagger">
@@ -79,14 +82,34 @@ export function renderTeaching() {
         </div>
       </section>
 
+      <!-- Workshops -->
+      ${workshops.length > 0 ? `
+      <section class="section section--sm">
+        <div class="container">
+          <div class="section-header animate-on-scroll">
+            <div class="section-label">Workshops</div>
+            <h2 class="section-title">Workshops & Tutorials</h2>
+            <p class="section-subtitle">
+              Practical sessions and step-by-step guides for technical skills.
+            </p>
+          </div>
+
+          <div class="grid grid--3 stagger">
+            ${workshops.map(renderResource).join('')}
+          </div>
+        </div>
+      </section>
+      ` : ''}
+
       <!-- Learning Notes -->
+      ${resources.length > 0 ? `
       <section class="section section--sm">
         <div class="container">
           <div class="section-header animate-on-scroll">
             <div class="section-label">Resources</div>
             <h2 class="section-title">Learning Notes</h2>
             <p class="section-subtitle">
-              Curated study materials and notes — originally for my students, now open for everyone.
+              Curated study materials and academic notes.
             </p>
           </div>
 
@@ -95,6 +118,8 @@ export function renderTeaching() {
           </div>
         </div>
       </section>
+      ` : ''}
     </div>
   `;
+
 }
