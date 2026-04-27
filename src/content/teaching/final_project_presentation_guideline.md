@@ -96,7 +96,7 @@ Fokus pada masalah yang spesifik, bukan umum.
 
 ---
 
-## 📊 Rubrik Penilaian Final Project Presentation
+## Rubrik Penilaian Final Project Presentation
 
 ### 1. Problem & Solution Clarity (25%)
 - Masalah dijelaskan dengan jelas dan relevan  
