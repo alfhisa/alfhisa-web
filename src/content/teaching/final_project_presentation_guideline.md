@@ -95,3 +95,26 @@ Fokus pada masalah yang spesifik, bukan umum.
 ### 10. Closing
 
 ---
+
+## 📊 Rubrik Penilaian Final Project Presentation
+
+### 1. Problem & Solution Clarity (25%)
+- Masalah dijelaskan dengan jelas dan relevan  
+- Konteks dan kebutuhan user terlihat  
+- Solusi yang ditawarkan masuk akal dan sesuai dengan masalah  
+
+### 2. Technical Understanding (30%)
+- Memahami sistem yang dibuat  
+- Mampu menjelaskan alur kerja sistem  
+- Dapat menjelaskan keputusan teknis (tools, arsitektur, dll)  
+
+### 3. Implementation Quality (25%)
+- Fitur utama berjalan dengan baik  
+- Implementasi bukan hanya konsep  
+- Aplikasi menunjukkan hasil yang sesuai dengan tujuan  
+
+### 4. Presentation Delivery (20%)
+- Struktur presentasi jelas dan runtut  
+- Penyampaian mudah dipahami  
+- Slide mendukung penjelasan (tidak terlalu penuh, cukup visual)
+
