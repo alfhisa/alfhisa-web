@@ -4,7 +4,7 @@ type: "Workshop"
 courseCode: ""
 academicYear: "2025/2026"
 semester: "Even 2025/2026"
-active: true
+active: false
 location: "Jakarta, Indonesia"
 venue: "BINUS University"
 description: "Final Project Presentation Guideline"

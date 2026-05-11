@@ -7,7 +7,7 @@ semester: "Even 2025/2026"
 active: false
 location: "Jakarta, Indonesia"
 venue: "BINUS University"
-description: "Materi praktikum Test-Driven Development (TDD) — belajar siklus Red-Green-Refactor dengan Python, pytest, dan GitHub Actions."
+description: "Tutorial Test-Driven Development (TDD) — belajar siklus Red-Green-Refactor dengan Python, pytest, dan GitHub Actions."
 ---
 
 # 🧪 Test-Driven Development (TDD)
