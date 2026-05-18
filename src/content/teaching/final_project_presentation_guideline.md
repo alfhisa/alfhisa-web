@@ -1,5 +1,5 @@
 ---
-title: "Final Project Presentation Guideline"
+title: "Final Project Pitch Guideline"
 type: "Workshop"
 courseCode: ""
 academicYear: "2025/2026"
@@ -10,111 +10,114 @@ venue: "BINUS University"
 description: "Final Project Presentation Guideline"
 ---
 
-# Final Project Presentation Guideline
+# Final Project Pitch Guideline
+
+> Presentasi ini bukan laporan teknis — bayangkan kamu sedang **pitching produk** ke investor atau pengguna pertamamu.
+
+---
 
 ## 1. Tujuan Presentasi
+
 Mahasiswa diharapkan mampu:
-- Menjelaskan masalah yang diangkat  
-- Menunjukkan solusi dalam bentuk software  
-- Menjelaskan proses pengembangan secara ringkas  
-- Mendemonstrasikan hasil akhir  
+
+- Menyampaikan masalah yang relevan secara meyakinkan
+- Menjelaskan solusi dan nilai produk dengan jelas
+- Menunjukkan fitur utama aplikasi melalui screenshot atau mockup
+- Menjelaskan keputusan teknis secara ringkas dan terarah
 
 ---
 
 ## 2. Durasi & Format
-- Durasi: **10–15 menit presentasi + diskusi**   
+
+- **Durasi:** Maksimal 10 menit (termasuk Q&A singkat)
+- **Format:** Slide presentasi + screenshot / mockup aplikasi
 
 ---
 
 ## 3. Struktur Presentasi
 
-### 1. Title Slide
-- Nama project  
-- Nama anggota tim  
-- Kelas  
+### Slide 1 — Hook & Problem
+
+Mulai dengan kalimat yang langsung menggambarkan masalah. Jawab tiga hal:
+
+- Siapa yang mengalami masalah ini?
+- Apa dampaknya jika masalah tidak diselesaikan?
+- Seberapa nyata dan relevan masalah ini?
+
+> Fokus pada masalah yang spesifik.
 
 ---
 
-### 2. Background & Problem
-- Masalah yang ingin diselesaikan  
-- Latar belakang singkat  
-- Target pengguna  
+### Slide 2 — Solution & Value Proposition
 
-Fokus pada masalah yang spesifik, bukan umum.
+Jelaskan solusi dan tekankan:
 
----
-
-### 3. Solution Overview
-- Penjelasan singkat solusi yang dibuat  
-- Apa yang membuat solusi ini berguna  
-- (Opsional) Perbandingan dengan solusi lain  
+- Apa yang dilakukan aplikasi ini?
+- Mengapa solusi ini lebih baik atau berbeda dari yang sudah ada?
+- Siapa target penggunanya?
 
 ---
 
-### 4. System Design
-- Gunakan diagram:
-  - UML diagram
-  - Arsitektur sistem (misalnya microservice, client-server, MVC, dll)  
+### Slide 3 — Key Features
+
+Tampilkan **3–5 fitur utama** beserta screenshot atau mockup antarmuka aplikasi.
+
+Untuk setiap fitur, jelaskan:
+
+- Fungsi fitur tersebut
+- Manfaat nyata bagi pengguna
+
+> Gunakan screenshot aplikasi yang berjalan atau mockup yang representatif
 
 ---
 
-### 5. Implementation
-- Teknologi yang digunakan:
-  - Frontend  
-  - Backend  
-  - Database  
-- Alasan pemilihan teknologi
+### Slide 4 — Under the Hood
+
+Bagian teknis yang ringkas namun substansial. Sertakan:
+
+- **Tech stack** yang digunakan (frontend, backend, database)
+- **Satu diagram arsitektur** (contoh: client-server, MVC, microservice)
+- **Alasan pemilihan teknologi** — jelaskan *mengapa*, bukan sekadar menyebutkan nama tools
 
 ---
 
-### 6. Key Features
-- Tampilkan 3–5 fitur utama  
-- Jelaskan fungsi dan manfaatnya  
+### Slide 5 — Challenges & Lessons Learned
+
+Ceritakan 1–2 kendala nyata yang dihadapi tim selama pengembangan dan bagaimana cara mengatasinya.
+
+> Jujur lebih menarik daripada terkesan sempurna.
 
 ---
 
-### 7. Demo
-- Tunjukkan aplikasi berjalan  
-- Gunakan skenario yang jelas (input → proses → output)  
+### Slide 6 — What's Next & Closing
+
+- Fitur atau pengembangan yang ingin dilakukan ke depan
+- Tutup dengan pernyataan yang kuat — bukan sekadar *"Sekian dari kami"*
 
 ---
 
-### 8. Challenges & Lessons Learned
-- Kendala selama pengembangan  
-- Cara mengatasinya  
-- Hal yang dipelajari / lesson learned  
+### Q&A
+
+Siapkan jawaban untuk pertanyaan seputar keputusan teknis, alur sistem, dan pilihan fitur.
 
 ---
 
-### 9. Future Improvement
-- Fitur yang belum sempat dibuat  
-- Ide pengembangan ke depan  
+## 4. Rubrik Penilaian
+
+| Kriteria | Bobot | Deskripsi |
+|---|---|---|
+| **Problem & Product Clarity** | 30% | Masalah jelas dan relevan. Value proposition tersampaikan dengan baik. Audiens memahami produk ini untuk siapa dan buat apa. |
+| **Key Features & Visuals** | 25% | Fitur utama dijelaskan dengan baik dan didukung screenshot atau mockup yang representatif. Bukan sekadar deskripsi tanpa bukti visual. |
+| **Technical Reasoning** | 20% | Mampu menjelaskan arsitektur sistem dan alasan pemilihan tech stack. Tidak perlu detail implementasi — yang dinilai adalah reasoning-nya. |
+| **Delivery & Communication** | 25% | Alur presentasi jelas, waktu terkelola baik, slide tidak penuh teks, dan mampu menjawab pertanyaan dengan percaya diri. |
 
 ---
 
-### 10. Closing
+## 5. Tips untuk Tim
 
----
-
-## Rubrik Penilaian Final Project Presentation
-
-### 1. Problem & Solution Clarity (25%)
-- Masalah dijelaskan dengan jelas dan relevan  
-- Konteks dan kebutuhan user terlihat  
-- Solusi yang ditawarkan masuk akal dan sesuai dengan masalah  
-
-### 2. Technical Understanding (30%)
-- Memahami sistem yang dibuat  
-- Mampu menjelaskan alur kerja sistem  
-- Dapat menjelaskan keputusan teknis (tools, arsitektur, dll)  
-
-### 3. Implementation Quality (25%)
-- Fitur utama berjalan dengan baik  
-- Implementasi bukan hanya konsep  
-- Aplikasi menunjukkan hasil yang sesuai dengan tujuan  
-
-### 4. Presentation Delivery (20%)
-- Struktur presentasi jelas dan runtut  
-- Penyampaian mudah dipahami  
-- Slide mendukung penjelasan (tidak terlalu penuh, cukup visual)
-
+- **Mulai dengan masalah, bukan dengan nama aplikasi.** Buat audiens peduli dulu sebelum kamu memperkenalkan solusi.
+- **Screenshot berbicara lebih keras dari kata-kata.** Gunakan tampilan aplikasi yang nyata.
+- **Satu diagram arsitektur sudah cukup.** Tidak perlu UML lengkap, yang penting bisa menjelaskan alur sistemnya.
+- **Buat slide sebaik mungkin.** Manfaatkan elemen visual yang menarik dan relevan — ikon, diagram, screenshot, dan infografis sederhana jauh lebih efektif daripada slide penuh poin-poin teks.
+- **Kurangi teks di slide.** Slide adalah alat bantu visual, bukan skrip. Kalau audiens sibuk membaca, mereka tidak mendengarkan kamu.
+- **Latih transisi antar bagian** agar presentasi terasa mulus dan profesional.
