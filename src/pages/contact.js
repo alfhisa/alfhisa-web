@@ -26,7 +26,7 @@ export function renderContact() {
               </p>
             </div>
 
-            <a href="https://www.linkedin.com/in/alfhisa" target="_blank" rel="noopener noreferrer" class="card card--interactive animate-on-scroll" style="text-align: center;">
+            <a href="https://id.linkedin.com/in/alfhisa" target="_blank" rel="noopener noreferrer" class="card card--interactive animate-on-scroll" style="text-align: center;">
               <div class="card__icon" style="margin: 0 auto var(--space-3);">💼</div>
               <h3 class="card__title" style="font-size: var(--text-base);">LinkedIn</h3>
               <p class="card__description">Connect with me</p>
