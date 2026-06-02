@@ -94,6 +94,12 @@ uvicorn app.main:app --reload
 
 Buka browser ke **http://localhost:8000** — kamu akan lihat halaman Masak Apa Nih?.
 
+> **Muncul error "Address already in use"?** Berarti port 8000 sedang dipakai proses lain. Kill dulu lalu jalankan ulang:
+> ```bash
+> lsof -ti:8000 | xargs kill -9
+> uvicorn app.main:app --reload
+> ```
+
 Coba:
 - Ketik "ayam" di search bar
 - Klik salah satu resep
@@ -114,11 +120,8 @@ tests/test_api.py::TestHomepage::test_returns_200 PASSED
 tests/test_api.py::TestHomepage::test_contains_recipe_content PASSED
 tests/test_api.py::TestSearch::test_search_ayam PASSED
 ...
-24 passed in 2.34s
+28 passed in 2.34s
 ```
-
-> Kalau ada yang FAILED, berhenti dulu dan tanya instruktur sebelum lanjut.
-
 ### 1.5 Lihat Struktur Folder
 
 ```
