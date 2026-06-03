@@ -30,7 +30,7 @@ Cek code quality dengan flake8
         ↓
 Kalau semua hijau → app otomatis deploy ke internet
         ↓
-Buka URL → Masak Apa Nih? live dan bisa diakses siapapun
+Buka URL → Masak Bareng Gue live dan bisa diakses siapapun
 ```
 
 Semua terjadi otomatis. Kamu tidak perlu deploy manual sama sekali.
@@ -163,108 +163,67 @@ Buat file baru:
 mkdir -p .github/workflows
 touch .github/workflows/ci.yml
 ```
+> **`touch` tidak bisa di Windows?** Tidak masalah — buat file-nya manual lewat IDE atau File Explorer:
+>
+> **Lewat VS Code:**
+> 1. Di panel Explorer (kiri), klik kanan folder `.github/workflows/`
+> 2. Pilih **New File**
+> 3. Ketik nama file: `ci.yml` → Enter
+>
+> **Lewat File Explorer (Windows):**
+> 1. Masuk ke folder `.github/workflows/` di project kamu
+> 2. Klik kanan → **New** → **Text Document**
+> 3. Rename jadi `ci.yml` — pastikan ekstensinya `.yml`, bukan `.yml.txt`
 
 Buka file itu di code editor kamu, dan mulai isi dari atas:
 
-### 2.2 Definisikan Trigger
-
+### 2.2 Isi File ci.yml
+ 
+Copy seluruh isi berikut ke file `ci.yml` yang baru kamu buat:
+ 
 ```yaml
 name: CI/CD Pipeline
-
+ 
 on:
   push:
     branches: [main, develop]
   pull_request:
     branches: [main]
-```
-
-**Penjelasan:**
-- `name` — nama pipeline yang muncul di tab Actions GitHub
-- `on` — kapan pipeline ini dijalankan
-- `push: branches: [main, develop]` — setiap kali ada push ke branch `main` atau `develop`
-- `pull_request: branches: [main]` — setiap kali ada PR yang targetnya `main`
-
-### 2.3 Definisikan Job
-
-Tambahkan di bawah bagian `on`:
-
-```yaml
+ 
 jobs:
   test:
     runs-on: ubuntu-latest
-```
-
-**Penjelasan:**
-- `jobs` — daftar semua job dalam workflow ini
-- `test` — nama job (bebas, tapi harus deskriptif)
-- `runs-on: ubuntu-latest` — job ini dijalankan di virtual machine Ubuntu terbaru milik GitHub
-
-> **Catatan:** GitHub menyediakan runner Ubuntu, Windows, dan macOS. Untuk web app Python, Ubuntu paling umum dipakai.
-
-### 2.4 Tambahkan Steps
-
-Masih di dalam job `test`, tambahkan steps:
-
-```yaml
+ 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
+ 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
+ 
       - name: Install dependencies
         run: pip install -r requirements.txt
-
+ 
       - name: Run tests
         run: pytest tests/ -v
 ```
+ 
+**Penjelasan tiap bagian:**
+ 
+| Bagian | Penjelasan |
+|--------|-----------|
+| `name` | Nama pipeline yang muncul di tab Actions GitHub |
+| `on: push` | Pipeline jalan setiap ada push ke branch `main` atau `develop` |
+| `on: pull_request` | Pipeline jalan setiap ada PR yang targetnya `main` |
+| `runs-on: ubuntu-latest` | Pipeline dijalankan di virtual machine Ubuntu milik GitHub, bukan laptop kamu |
+| `actions/checkout@v4` | Download kode repo ke runner — tanpa ini runner tidak punya kode apapun |
+| `actions/setup-python@v5` | Install Python 3.11 di runner |
+| `pip install -r requirements.txt` | Install semua library yang dibutuhkan app |
+| `pytest tests/ -v` | Jalankan semua test — pipeline **gagal** kalau ada test yang FAILED |
 
-**Penjelasan setiap step:**
-
-| Step | Penjelasan |
-|------|-----------|
-| `actions/checkout@v4` | Download kode repo ke runner. Tanpa ini, runner tidak punya kode kamu. |
-| `actions/setup-python@v5` | Install Python versi yang ditentukan di runner. |
-| `pip install -r requirements.txt` | Install semua library yang dibutuhkan app. |
-| `pytest tests/ -v` | Jalankan semua test. Pipeline gagal kalau ada test yang FAILED. |
-
-### 2.5 File Lengkap Sejauh Ini
-
-File `ci.yml` kamu sekarang seharusnya terlihat seperti ini:
-
-```yaml
-name: CI/CD Pipeline
-
-on:
-  push:
-    branches: [main, develop]
-  pull_request:
-    branches: [main]
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Run tests
-        run: pytest tests/ -v
-```
-
-### 2.6 Push dan Lihat Pipeline Jalan
+### 2.3 Push dan Lihat Pipeline Jalan
 
 ```bash
 git add .github/workflows/ci.yml
@@ -278,7 +237,7 @@ Kamu akan lihat workflow sedang berjalan. Klik untuk melihat detail — setiap s
 
 > **Yang diharapkan:** Semua steps hijau ✓ dan kamu lihat "24 passed" di step Run tests.
 
-### 2.7 Coba Buat Pipeline Merah (Sengaja)
+### 2.4 Coba Buat Pipeline Merah (Sengaja)
 
 Ini bagian penting — kita perlu merasakan bahwa pipeline benar-benar menjaga kode kita.
 
