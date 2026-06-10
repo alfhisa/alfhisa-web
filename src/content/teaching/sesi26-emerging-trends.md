@@ -1,5 +1,5 @@
 ---
-title: "Emerging Trends in Software Engineering"
+title: "Sesi 26 - Emerging Trends in Software Engineering"
 type: "Workshop"
 courseCode: ""
 academicYear: "2025/2026"

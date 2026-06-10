@@ -1,5 +1,5 @@
 ---
-title: "Legal Issues, Social Impact & Professional Ethics in Software Engineering"
+title: "Sesi 25 - Legal Issues, Social Impact & Professional Ethics in Software Engineering"
 type: "Workshop"
 courseCode: ""
 academicYear: "2025/2026"
